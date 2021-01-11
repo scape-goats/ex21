@@ -9,4 +9,4 @@ services:
     tty: true
     working_dir: '/tmp/work'
     volumes: 
-      - ./python: /tmp/work
+      - ../python:/tmp/work
